@@ -79,7 +79,7 @@ class RegistrationViewModel: ObservableObject {
             .store(in: &cancellables)
     }
     
-    private func updateButtonState() {
+    func updateButtonState() {
         isRegisterButtonEnabled =
             validation.isNameValid(firstName) &&
             validation.isNameValid(lastName) &&

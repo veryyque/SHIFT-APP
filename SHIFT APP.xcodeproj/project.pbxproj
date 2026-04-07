@@ -6,8 +6,19 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXContainerItemProxy section */
+		572443802F85661100CFAED9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5724432A2F83D8EB00CFAED9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 572443312F83D8EB00CFAED9;
+			remoteInfo = "SHIFT APP";
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
 		572443322F83D8EB00CFAED9 /* SHIFT APP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SHIFT APP.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5724437C2F85661100CFAED9 /* SHIFT APPTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SHIFT APPTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -16,10 +27,22 @@
 			path = "SHIFT APP";
 			sourceTree = "<group>";
 		};
+		5724437D2F85661100CFAED9 /* SHIFT APPTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "SHIFT APPTests";
+			sourceTree = "<group>";
+		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		5724432F2F83D8EB00CFAED9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		572443792F85661100CFAED9 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -33,6 +56,7 @@
 			isa = PBXGroup;
 			children = (
 				572443342F83D8EB00CFAED9 /* SHIFT APP */,
+				5724437D2F85661100CFAED9 /* SHIFT APPTests */,
 				572443332F83D8EB00CFAED9 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -41,6 +65,7 @@
 			isa = PBXGroup;
 			children = (
 				572443322F83D8EB00CFAED9 /* SHIFT APP.app */,
+				5724437C2F85661100CFAED9 /* SHIFT APPTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -70,6 +95,29 @@
 			productReference = 572443322F83D8EB00CFAED9 /* SHIFT APP.app */;
 			productType = "com.apple.product-type.application";
 		};
+		5724437B2F85661100CFAED9 /* SHIFT APPTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 572443822F85661100CFAED9 /* Build configuration list for PBXNativeTarget "SHIFT APPTests" */;
+			buildPhases = (
+				572443782F85661100CFAED9 /* Sources */,
+				572443792F85661100CFAED9 /* Frameworks */,
+				5724437A2F85661100CFAED9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				572443812F85661100CFAED9 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				5724437D2F85661100CFAED9 /* SHIFT APPTests */,
+			);
+			name = "SHIFT APPTests";
+			packageProductDependencies = (
+			);
+			productName = "SHIFT APPTests";
+			productReference = 5724437C2F85661100CFAED9 /* SHIFT APPTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -82,6 +130,11 @@
 				TargetAttributes = {
 					572443312F83D8EB00CFAED9 = {
 						CreatedOnToolsVersion = 26.2;
+					};
+					5724437B2F85661100CFAED9 = {
+						CreatedOnToolsVersion = 26.2;
+						LastSwiftMigration = 2620;
+						TestTargetID = 572443312F83D8EB00CFAED9;
 					};
 				};
 			};
@@ -100,12 +153,20 @@
 			projectRoot = "";
 			targets = (
 				572443312F83D8EB00CFAED9 /* SHIFT APP */,
+				5724437B2F85661100CFAED9 /* SHIFT APPTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
 		572443302F83D8EB00CFAED9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5724437A2F85661100CFAED9 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -122,7 +183,22 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		572443782F85661100CFAED9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		572443812F85661100CFAED9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 572443312F83D8EB00CFAED9 /* SHIFT APP */;
+			targetProxy = 572443802F85661100CFAED9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		5724433B2F83D8ED00CFAED9 /* Debug */ = {
@@ -310,6 +386,51 @@
 			};
 			name = Release;
 		};
+		572443832F85661100CFAED9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6HS63852ZQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.veronikamoskalyuk.SHIFT-APPTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SHIFT APP.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SHIFT APP";
+			};
+			name = Debug;
+		};
+		572443842F85661100CFAED9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6HS63852ZQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.veronikamoskalyuk.SHIFT-APPTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SHIFT APP.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SHIFT APP";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -327,6 +448,15 @@
 			buildConfigurations = (
 				5724433E2F83D8ED00CFAED9 /* Debug */,
 				5724433F2F83D8ED00CFAED9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		572443822F85661100CFAED9 /* Build configuration list for PBXNativeTarget "SHIFT APPTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				572443832F85661100CFAED9 /* Debug */,
+				572443842F85661100CFAED9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
